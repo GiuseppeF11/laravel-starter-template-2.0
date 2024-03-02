@@ -3,13 +3,15 @@
 @section('page-title', 'Chi siamo')
 
 @section('main-content')
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <h1>
-                About | Laravel Start 1
-            </h1>
-        </div>
+    <div class="container">
+        <h1>
+            MAIN DI ABOUT
+        </h1>
     </div>
-</div>
 @endsection
+
+<style lang="scss" scoped>
+    main {
+        background-color: rgb(212, 139, 22);
+    }
+</style>

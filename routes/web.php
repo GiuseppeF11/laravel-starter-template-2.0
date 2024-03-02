@@ -21,7 +21,7 @@ use App\Http\Controllers\Admin\BookController;
 
 Route::get('/', [MainController::class, 'index'])->name('home');   // <--- Che vantaggi ho nominando le rotte?
 
-Route::get('/chi-siamo', [MainController::class, 'about'])->name('about');
+Route::get('/about', [MainController::class, 'about'])->name('about');
 
 /*
     Questa istruzione definisce 7 rotte (in quest'ordine - perché è importante l'ordine delle rotte?):
